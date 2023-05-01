@@ -1,0 +1,17 @@
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\bin\Debug\net7.0\Dukkantek.Inventory.Application.deps.json
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\bin\Debug\net7.0\Dukkantek.Inventory.Application.dll
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\bin\Debug\net7.0\Dukkantek.Inventory.Application.pdb
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\bin\Debug\net7.0\Dukkantek.Inventory.Common.dll
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\bin\Debug\net7.0\Dukkantek.Inventory.Domain.dll
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\bin\Debug\net7.0\Dukkantek.Inventory.Domain.pdb
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\bin\Debug\net7.0\Dukkantek.Inventory.Common.pdb
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\Dukkantek.Inventory.Application.csproj.AssemblyReference.cache
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\Dukkantek.Inventory.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\Dukkantek.Inventory.Application.AssemblyInfoInputs.cache
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\Dukkantek.Inventory.Application.AssemblyInfo.cs
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\Dukkantek.Inventory.Application.csproj.CoreCompileInputs.cache
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\Dukkantek.Inventory.Application.csproj.CopyComplete
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\Dukkantek.Inventory.Application.dll
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\refint\Dukkantek.Inventory.Application.dll
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\Dukkantek.Inventory.Application.pdb
+C:\Users\zohai\Downloads\Dukkantek.Inventory-main\Dukkantek.Inventory-main\Dukkantek.Inventory.Application\obj\Debug\net7.0\ref\Dukkantek.Inventory.Application.dll

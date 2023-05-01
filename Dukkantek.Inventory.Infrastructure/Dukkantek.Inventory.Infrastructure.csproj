@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Hangfire.AspNetCore" Version="1.8.0" />
+		<PackageReference Include="Hangfire.SqlServer" Version="1.8.0" />
+		<PackageReference Include="SendGrid" Version="9.28.1" />
+		<PackageReference Include="Twilio" Version="6.5.0" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Dukkantek.Inventory.Application\Dukkantek.Inventory.Application.csproj" />
+	  <ProjectReference Include="..\Dukkantek.Inventory.Common\Dukkantek.Inventory.Common.csproj" />
+	</ItemGroup>
+
+</Project>

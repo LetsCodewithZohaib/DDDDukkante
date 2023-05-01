@@ -1,0 +1,582 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api.Tests\\Dukkantek.Inventory.Api.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api.Tests\\Dukkantek.Inventory.Api.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api.Tests\\Dukkantek.Inventory.Api.Tests.csproj",
+        "projectName": "Dukkantek.Inventory.Api.Tests",
+        "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api.Tests\\Dukkantek.Inventory.Api.Tests.csproj",
+        "packagesPath": "C:\\Users\\zohai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zohai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api\\Dukkantek.Inventory.Api.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api\\Dukkantek.Inventory.Api.csproj"
+              },
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj"
+              },
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\Dukkantek.Inventory.Common.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\Dukkantek.Inventory.Common.csproj"
+              },
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Domain\\Dukkantek.Inventory.Domain.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Domain\\Dukkantek.Inventory.Domain.csproj"
+              },
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Infrastructure\\Dukkantek.Inventory.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Infrastructure\\Dukkantek.Inventory.Infrastructure.csproj"
+              },
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Persistence\\Dukkantek.Inventory.Persistence.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Persistence\\Dukkantek.Inventory.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api\\Dukkantek.Inventory.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api\\Dukkantek.Inventory.Api.csproj",
+        "projectName": "Dukkantek.Inventory.Api",
+        "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api\\Dukkantek.Inventory.Api.csproj",
+        "packagesPath": "C:\\Users\\zohai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zohai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj"
+              },
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Infrastructure\\Dukkantek.Inventory.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Infrastructure\\Dukkantek.Inventory.Infrastructure.csproj"
+              },
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Persistence\\Dukkantek.Inventory.Persistence.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Persistence\\Dukkantek.Inventory.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj",
+        "projectName": "Dukkantek.Inventory.Application",
+        "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj",
+        "packagesPath": "C:\\Users\\zohai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zohai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Domain\\Dukkantek.Inventory.Domain.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Domain\\Dukkantek.Inventory.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR.Extensions.FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\Dukkantek.Inventory.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\Dukkantek.Inventory.Common.csproj",
+        "projectName": "Dukkantek.Inventory.Common",
+        "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\Dukkantek.Inventory.Common.csproj",
+        "packagesPath": "C:\\Users\\zohai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zohai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Domain\\Dukkantek.Inventory.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Domain\\Dukkantek.Inventory.Domain.csproj",
+        "projectName": "Dukkantek.Inventory.Domain",
+        "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Domain\\Dukkantek.Inventory.Domain.csproj",
+        "packagesPath": "C:\\Users\\zohai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zohai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\Dukkantek.Inventory.Common.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\Dukkantek.Inventory.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Infrastructure\\Dukkantek.Inventory.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Infrastructure\\Dukkantek.Inventory.Infrastructure.csproj",
+        "projectName": "Dukkantek.Inventory.Infrastructure",
+        "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Infrastructure\\Dukkantek.Inventory.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\zohai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zohai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj"
+              },
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\Dukkantek.Inventory.Common.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Common\\Dukkantek.Inventory.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Persistence\\Dukkantek.Inventory.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Persistence\\Dukkantek.Inventory.Persistence.csproj",
+        "projectName": "Dukkantek.Inventory.Persistence",
+        "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Persistence\\Dukkantek.Inventory.Persistence.csproj",
+        "packagesPath": "C:\\Users\\zohai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zohai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj": {
+                "projectPath": "C:\\Users\\zohai\\Downloads\\Dukkantek.Inventory-main\\Dukkantek.Inventory-main\\Dukkantek.Inventory.Application\\Dukkantek.Inventory.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

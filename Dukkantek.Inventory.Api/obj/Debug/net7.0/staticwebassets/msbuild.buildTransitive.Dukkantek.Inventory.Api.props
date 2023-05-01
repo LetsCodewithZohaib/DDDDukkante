@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Dukkantek.Inventory.Api.props" />
+</Project>

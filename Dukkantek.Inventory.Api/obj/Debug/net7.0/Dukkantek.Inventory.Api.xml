@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dukkantek.Inventory.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Dukkantek.Inventory.Api.Base.BaseController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="mediator"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="T:Dukkantek.Inventory.Api.Controllers.CategoriesController">
+            <summary>
+            this is the categories endpoints
+            </summary>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.CategoriesController.GetCategories">
+            <summary>
+            gets all categories in the system
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.CategoriesController.GetCategory(System.Guid)">
+            <summary>
+             gets a single category by ID
+            </summary>
+            <param name="categoryId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.CategoriesController.CreateCategory(Dukkantek.Inventory.Application.Categories.Commands.CreateCategoryCommand)">
+            <summary>
+            creates a new category
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.CategoriesController.UpdateCategory(Dukkantek.Inventory.Application.Categories.Commands.UpdateCategoryCommand)">
+            <summary>
+            updates an category
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.CategoriesController.DeleteCategory(Dukkantek.Inventory.Application.Categories.Commands.DeleteCategoryCommand)">
+            <summary>
+            deletes single category
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Dukkantek.Inventory.Api.Controllers.ProductsController">
+            <summary>
+            this is the products endpoints
+            </summary>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.ProductsController.GetProducts">
+            <summary>
+            gets all products in the system
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.ProductsController.GetProductsCount">
+            <summary>
+            gets a summary of products in the system
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.ProductsController.GetProduct(System.Guid)">
+            <summary>
+             gets a single product by ID
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.ProductsController.CreateProduct(Dukkantek.Inventory.Application.Products.Commands.CreateProductCommand)">
+            <summary>
+            creates a new product
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.ProductsController.UpdateProduct(Dukkantek.Inventory.Application.Products.Commands.UpdateProductCommand)">
+            <summary>
+            updates an product
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.ProductsController.DeleteProduct(Dukkantek.Inventory.Application.Products.Commands.DeleteProductCommand)">
+            <summary>
+            deletes single product
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.ProductsController.SellProduct(Dukkantek.Inventory.Application.Products.Commands.SellProductCommand)">
+            <summary>
+            sells a product
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dukkantek.Inventory.Api.Controllers.ProductsController.ChangeProductStatus(Dukkantek.Inventory.Application.Products.Commands.ChangeProductStatusCommand)">
+            <summary>
+            sells a product
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
